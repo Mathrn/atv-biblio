@@ -1,5 +1,5 @@
 <?php
-include 'conexao.php';
+include 'conn.php';
 
 $genero = isset($_GET['genero']) ? $_GET['genero'] : '';
 $data = isset($_GET['data']) ? $_GET['data'] : '';

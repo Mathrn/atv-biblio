@@ -11,8 +11,9 @@ include 'conn.php';
 
     $sql = "INSERT INTO livros (titulo, autor, data_publicacao, data_aquisicao, genero, sinopse)
             VALUES (?, ?, ?, ?, ?, ?)";
-echo $sql;}
+echo $sql;
 
+echo $sql;
 
 /*if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $titulo = $_POST['titulo'];
@@ -36,5 +37,5 @@ echo $sql;
 
     $stmt->close();
     $conn->close();*/
-
+}
 ?>
